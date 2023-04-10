@@ -1,0 +1,18 @@
+.container{
+    @apply w-[43.75rem] m-auto relative mt-10 flex flex-col justify-between;
+}
+.app .top{
+    @apply w-[100%] mt-[1rem] mb-[1rem] ml-auto mr-auto;
+}
+.app .description{
+    @apply relative right-[-90%];
+    transform-origin: 0 0;
+    transform: rotate(260deg);
+}
+.app .bottom{
+    @apply flex justify-between gap-[1rem] text-center mt-[1rem] mb-[1rem] ml-auto mr-auto rounded-[0.75rem] px-[1rem] py-[1rem];
+    background-color: rgba(251, 251, 251, 0.2)
+}
+.bold{
+    @apply font-bold;
+}
